@@ -1,0 +1,17 @@
+{
+  "name": "qr-code-gen",
+  "version": "0.0.0",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "wrangler": "2.3.2"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "jest"
+  },
+  "dependencies": {
+    "qr-image": "^3.2.0"
+  }
+}

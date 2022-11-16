@@ -1,0 +1,5 @@
+name = "qr-code-gen"
+main = "src/index.js"
+compatibility_date = "2022-11-16"
+node_compat = true
+type = "webpack"
